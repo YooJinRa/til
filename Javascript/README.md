@@ -40,8 +40,8 @@
 
 #### string.repeat(반복count)
 - 주어진 문자열을 옵션의 count만큼 반복하여 붙인 다음에 새로운 문자열로 반환하는 함수
-> ```
-let str = '*'
+```
+const str = '*'
 console.log(str.repeat(5))
 
 // 결과 : *****
