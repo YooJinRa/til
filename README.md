@@ -12,6 +12,7 @@
 - [CSS](https://github.com/YooJinRa/til/tree/main/CSS)
 - [Git_Github](https://github.com/YooJinRa/til/tree/main/Git_Github)
 - [Javascript](https://github.com/YooJinRa/til/tree/main/Javascript)
+    * [About Javascript](https://github.com/YooJinRa/til/tree/main/Javascript/AboutJavascript.md)
     * [Javascript Method](https://github.com/YooJinRa/til/tree/main/Javascript/JavascriptMethod.md)
 - [Programming](https://github.com/YooJinRa/til/tree/main/Programming)
 - [ReactJS](https://github.com/YooJinRa/til/tree/main/ReactJS)
