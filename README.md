@@ -10,6 +10,7 @@
 
 ### INDEX
 - 📌 [Clean Code](https://github.com/YooJinRa/til/tree/main/CleanCode)
+- 📌 [CS Study](https://github.com/YooJinRa/til/tree/main/CS_Study)
 - 📌 [CSS](https://github.com/YooJinRa/til/tree/main/CSS)
 - 📌 [Git_Github](https://github.com/YooJinRa/til/tree/main/Git_Github)
 - 📌 [Javascript](https://github.com/YooJinRa/til/tree/main/Javascript)
