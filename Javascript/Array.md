@@ -49,6 +49,6 @@
 - (단, arguments, NodeList, HTMLCollection은 유사배열객체이면서 이터러블)
 - 유사 배열의 경우 배열의 메서드를 사용할 수 없음
 
-- 배열 메서드를 사용하기 위한 방법
-    * 1) Array.from() 메서드는 유사 배열 객체(array-like object)나 반복 가능한 객체(iterable object)를 얕게 복사해 새로운Array 객체를 만듦 (MDN)
-    * 2) call, apply를 사용해서 배열의 프로토타입에서 메서드를 빌려옴
+### 배열 메서드를 사용하기 위한 방법
+- Array.from() 메서드는 유사 배열 객체(array-like object)나 반복 가능한 객체(iterable object)를 얕게 복사해 새로운Array 객체를 만듦 (MDN)
+- call, apply를 사용해서 배열의 프로토타입에서 메서드를 빌려옴
