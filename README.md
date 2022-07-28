@@ -5,7 +5,6 @@
 > ⏱ 2022.07.10 ~<br />
 > 📝 매일 배운 내용을 기록하며, 각 항목에 배운 내용을 덧붙여 업데이트 합니다.<br />
 > 📝 목록을 만들어 정리합니다.<br />
-
 -----
 
 ### INDEX
@@ -14,11 +13,21 @@
 - 📌 [CSS](https://github.com/YooJinRa/til/tree/main/CSS)
 - 📌 [Git_Github](https://github.com/YooJinRa/til/tree/main/Git_Github)
 - 📌 [Javascript](https://github.com/YooJinRa/til/tree/main/Javascript)
-    * [About Javascript](https://github.com/YooJinRa/til/tree/main/Javascript/AboutJavascript.md)
-    * [ES](https://github.com/YooJinRa/til/tree/main/Javascript/ES.md)
-    * [Javascript Method](https://github.com/YooJinRa/til/tree/main/Javascript/JavascriptMethod.md)
+    * 📌 [About Javascript](https://github.com/YooJinRa/til/tree/main/Javascript/AboutJavascript.md)
+    * 📌 [Array 배열](https://github.com/YooJinRa/til/blob/main/Javascript/Array.md)
+    * 📌 [Arrow Function 화살표 함수](https://github.com/YooJinRa/til/blob/main/Javascript/ArrowFunction.md)
+    * 📌 [Data Type 데이터 타입](https://github.com/YooJinRa/til/blob/main/Javascript/DataType.md)
+    * 📌 [ES](https://github.com/YooJinRa/til/tree/main/Javascript/ES.md)
+    * 📌 [ShallowCopy_DeepCopy 얕은복사_깊은복사](https://github.com/YooJinRa/til/blob/main/Javascript/ShallowCopy_DeepCopy.md)
+    * 📌 [Statement&Expression 문&표현식](https://github.com/YooJinRa/til/blob/main/Javascript/Statement.md)
+    * 📌 [String 문자열타입](https://github.com/YooJinRa/til/blob/main/Javascript/Statement.md)
+    * 📌 [Variable 변수](https://github.com/YooJinRa/til/blob/main/Javascript/Variable.md)
 - 📌 [Programming](https://github.com/YooJinRa/til/tree/main/Programming)
 - 📌 [ReactJS](https://github.com/YooJinRa/til/tree/main/ReactJS)
+    * 📌 [Redux](https://github.com/YooJinRa/til/tree/main/ReactJS/Redux.md)
+    * 📌 [useEffect](https://github.com/YooJinRa/til/tree/main/ReactJS/useEffect.md)
+    * 📌 [useMemo](https://github.com/YooJinRa/til/tree/main/ReactJS/useMemo.md)
+    * 📌 [useRef](https://github.com/YooJinRa/til/tree/main/ReactJS/useRef.md)
 
 -----
 
