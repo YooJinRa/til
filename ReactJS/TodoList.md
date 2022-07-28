@@ -9,11 +9,13 @@
 - [ ] redux (state와 차이 : 둘 다 상태관리 담당) ⭐⭐⭐
 - [ ] 라이프 사이클 메서드
 - [ ] this 바인딩
-- [ ] useEffect ⭐⭐⭐
+- [X] useEffect ⭐⭐⭐
+- [X] useRef
 - [ ] dependency array
 - [ ] 리팩토링 ⭐
 - [ ] 구조분해할당
-- [ ] useMemo, useCallback : 성능 최적화와 관련
+- [X] useMemo : 성능 최적화와 관련
+- [ ] useCallback : 성능 최적화와 관련
 - [ ] router ⭐⭐⭐
 
 # React Todo List
