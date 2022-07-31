@@ -9,10 +9,10 @@
 ```yarn add gh-pages --dev```
 
 #### 2. package.json 파일 수정
-- homepage 추가
+- homepage 추가 <br />
 ```"homepage" : "https://[user_name].github.io/[repository_name]"```
 
-- scripts에 속성 추가(deploy)
+- scripts에 속성 추가(deploy)<br />
 ```
 "predeploy": "yarn build",
 "deploy": "gh-pages -d build"
@@ -36,5 +36,5 @@
   * React package 중 Router가 설치되어 있으면 문제가 발생할 수 있음
 
 - 해결방법
-  * 라우터에 속성 추가 : basename -> 기본 URL을 설정해주는 속성
+  * 라우터에 속성 추가 : basename -> 기본 URL을 설정해주는 속성<br />
   ```<BrowserRouter basename={process.env.PUBLIC_URL}>```
