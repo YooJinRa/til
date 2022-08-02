@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>항해톡! 브라우저 작동원리</title>
+  <style>
+    @keyframes fadeInLeft {
+        0% {
+            opacity: 0;
+            transform: translate3d(-100%, 0, 0);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(200%);
+        }
+    }
+ 
+    .eventLeft {
+        position: relative;
+        animation: fadeInLeft 2s;
+    }
+
+    * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+    .wrap {
+      position: relative;
+      width: 100%; 
+      height: 100vh;
+      background-color: #2558a5;
+    }
+    p {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 800px;
+      height: 630px;
+      overflow: hidden;
+    }
+    p > img {
+      display:block;
+      width:100%;
+    }
+    .btnLeft {
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      background-color: white;
+      border: 1px solid white;
+      bottom: 100px;
+      left:100px;
+      font-size: 20px;
+    }
+
+  </style>
+  <script>
+    function fadeInLeft() {
+      let element = document.getElementById("imageBox");
+      element.classList.add("eventLeft");
+    }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <p id="imageBox">
+      <img src="image.png" alt="image" />
+    </p>
+    
+    <button class="btnLeft" onClick='fadeInLeft()'>이동</button>
+  </div>
+</body>
+</html>
