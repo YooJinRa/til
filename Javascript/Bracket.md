@@ -15,3 +15,7 @@
 - for문의 특정 조건을 적어줄 때 `for (i=0; i<100; i++)`
 - if문의 특정 조건을 적어 줄 때 `if ( a >b )`
 - 함수 이름 바로 뒤에 (매개변수가 들어갈 위치) `function openclose( 특정 매개변수 )`
+
+
+#### 출처
+- <https://daeguowl.tistory.com/151>
