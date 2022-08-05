@@ -8,6 +8,7 @@
 -----
 
 ### INDEX
+- 📌 [Algorithm](https://github.com/YooJinRa/til/tree/main/Algorithm)
 - 📌 [Clean Code](https://github.com/YooJinRa/til/tree/main/CleanCode)
 - 📌 [CS Study](https://github.com/YooJinRa/til/tree/main/CS_Study)
 - 📌 [CSS](https://github.com/YooJinRa/til/tree/main/CSS)
@@ -37,6 +38,7 @@
 
 ### 회고
 - 📌 [2022.07](https://github.com/YooJinRa/til/blob/main/Retrospect/202207.md)
+- 📌 [2022.08](https://github.com/YooJinRa/til/blob/main/Retrospect/202208.md)
 
 
 ----
