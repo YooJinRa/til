@@ -17,6 +17,8 @@
 - 📌 [Git_Github](https://github.com/YooJinRa/til/tree/main/Git_Github)
     * 📌 [Concept](https://github.com/YooJinRa/til/blob/main/Git_Github/concept.md)
     * 📌 [Github Pages](https://github.com/YooJinRa/til/tree/main/Git_Github/GithubPages.md)
+- 📌 [HTTP](https://github.com/YooJinRa/til/tree/main/HTTP)
+    * 📌 [MIME Type](https://github.com/YooJinRa/til/tree/main/HTTP/MIME_Type.md)
 - 📌 [Javascript](https://github.com/YooJinRa/til/tree/main/Javascript)
     * 📌 [About Javascript](https://github.com/YooJinRa/til/tree/main/Javascript/AboutJavascript.md)
     * 📌 [Array 배열](https://github.com/YooJinRa/til/blob/main/Javascript/Array.md)
