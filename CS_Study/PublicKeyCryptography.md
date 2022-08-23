@@ -47,4 +47,4 @@
 
 -----
 
-* 출처 : [위키피아](http://wiki.hash.kr/index.php/%EA%B3%B5%EA%B0%9C%ED%82%A4_%EC%95%94%ED%98%B8_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+* 출처 : [해시넷위키](http://wiki.hash.kr/index.php/%EA%B3%B5%EA%B0%9C%ED%82%A4_%EC%95%94%ED%98%B8_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
