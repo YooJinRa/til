@@ -9,7 +9,7 @@
 
 -----
 
-## HTTPS
+## HTTPS (HyperText Transfer Protocol over Secure Socket Layer)
 - HTTPS는 인터넷 상에서 정보를 암호화하는 SSL(Secure Socket Layer)프로토콜을 이용하여 웹브라우저(클라이언트)와 서버가 데이터를 주고 받는 통신 규약
 - HTTPS는 http 메세지(text)를 암호화하는 것
 - HTTPS 프로토콜은 SSL(보안 소켓 계층)을 사용함으로써 이 문제를 해결
