@@ -20,6 +20,7 @@
     * 📌 [Github Pages](https://github.com/YooJinRa/til/tree/main/Git_Github/GithubPages.md)
 - 📌 [HTTP](https://github.com/YooJinRa/til/tree/main/HTTP)
     * 📌 [MIME Type](https://github.com/YooJinRa/til/tree/main/HTTP/MIME_Type.md)
+    * 📌 [URL vs URI vs URN](https://github.com/YooJinRa/til/tree/main/Javascript/Url_Uri_Urn.md)
 - 📌 [Javascript](https://github.com/YooJinRa/til/tree/main/Javascript)
     * 📌 [About Javascript](https://github.com/YooJinRa/til/tree/main/Javascript/AboutJavascript.md)
     * 📌 [Array 배열](https://github.com/YooJinRa/til/blob/main/Javascript/Array.md)
