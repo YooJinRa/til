@@ -17,6 +17,7 @@
 - 📌 [Git_Github](https://github.com/YooJinRa/til/tree/main/Git_Github)
     * 📌 [Concept](https://github.com/YooJinRa/til/blob/main/Git_Github/concept.md)
     * 📌 [Github Actions](https://github.com/YooJinRa/til/tree/main/Git_Github/GitHubActions.md)
+    * 📌 [Github Actions Secrets env 설정 방법](https://github.com/YooJinRa/til/tree/main/Git_Github/GitHubActionsSecrets.md)
     * 📌 [Github Pages](https://github.com/YooJinRa/til/tree/main/Git_Github/GithubPages.md)
 - 📌 [Network](https://github.com/YooJinRa/til/tree/main/Network)
     * 📌 [Http vs Https](https://github.com/YooJinRa/til/tree/main/Network/Http_Https.md)
