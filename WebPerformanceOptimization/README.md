@@ -14,12 +14,10 @@
 - 현대의 웹 브라우저 환경은 DOM 생성을 최대한 빨리하고 블로킹을 일으키는 복잡한 스크립트 로직은 비동기적으로 처리
 - SPA 라이브러리 같은 경우도 상당히 연산이 심하기 때문에 비동기적으로 스크립트가 실행
 - 최근의 성능 측정에서는 사용자가 직접 느끼는 부분을 중요시 하기 때문에 다음과 같은 사용자 기준으로 성능을 측정
-
   - FP(First Paint) : 처음 뭔가 그리기 시작
   - FCP(First Contentful Paint) : 텍스트나 이미지 그리기 시작
   - FMP(First Meaningful Paint) : 의미 있는 데이터 그리기 시작
   - TTI(Time to Interactive) : 사용자가 행동을 취할수 있는 시점
-
 - 같은 혹은 더 빠른 DOMContentLoaded, load 이벤트 시점이라도 사용자는 점차적으로 보이는 화면(optimized rendering)을 더 빠르다고 판단
   <img src="https://velog.velcdn.com/images/ottoyoon98/post/2ed19627-e0a4-4c2e-9340-1157b6f96a19/image.PNG" width="800" />
 
