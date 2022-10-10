@@ -76,3 +76,71 @@
   - S3 엔드 포인트 주소를 그대로 사용해야한다는 점
 
 - 이런 문제들을 해결하기 위해 S3 버킷에 연결할 AWS Cloudfront 서비스가 필요
+
+### 11. useEffect와 useLayoutEffect 차이에 대해 설명해주세요.
+
+- useEffect(비동기적)는 랜더링된 이후에 동작하는 hook이고, useLayoutEffect(동기적)는 랜더링 되기 이전에 동작하는 hook
+- DOM에서 동기적으로 리랜더링이 일어나면 앞선 작업이 끝나기 전까지 유저는 DOM를 제대로 보지 못함. 그래서 비동기적으로 동작하는 useEffect를 먼저 사용하라고 권하는 것
+- 동기적인 랜더링, 깜빡임 등에 useLayoutEffect를 제한적으로 고려
+
+### 12. Closure란? (공부해야함!!!!!)
+
+- 클로저는 반환된 내부함수가 자신이 선언됐을 때의 환경(Lexical environment)인 스코프를 기억하여 자신이 선언됐을 때의 환경(스코프) 밖에서 호출되어도 그 환경(스코프)에 접근할 수 있는 함수
+
+### 13. Javascript 호이스팅에 대해 설명해주세요.
+
+- 함수가 실행되기 전에 JS 엔진이 안에 있는 변수를 범위의 최상단으로 끌어 올리는 것
+- 변수 선언은 소스코드가 한 줄씩 순차적으로 실행되는 시점, 즉 런타임 runtime이 아니라 그 이전 단계에서 먼저 실행됨
+- **변수 호이스팅 Variable Hoisting** : 변수 선언문이 코드의 섣두로 끌어 올려진 것처럼 동작하는 자바스크립트 고유의 특징
+
+### 14. 프로세스 생성 과정에 대해 설명해보세요.
+
+- 프로세스란 실행중에 있는 프로그램
+- 실행파일 클릭 -> 실행을 위한 메모리 할당 -> 메모리 공간으로 바이너리 코드 올라감 -> 그 순간부터 프로그램은 프로세스라고 불림
+- 프로세스 생성과정
+  - PCB가 생성되며 OS가 실행한 프로그램의 코드를 읽어들여 프로세스에 할당된 메모리의 Text segment에 저장
+  - 초기화된 전역 변수 및 static 변수를 data segment에 할당
+  - HEAP과 Stack은 초기 메모리 주소만 초기화됨
+  - PCB에 여러 정보가 기록되면 Ready Queue에서 CPU를 할당받기까지 대기
+
+### 15. HTTPS란?
+
+- HTTPS (HTTP Secure) 는 HTTP protocol의 암호화된 버전
+- 클라이언트와 서버 간의 모든 커뮤니케이션을 암호화 하기 위하여 SSL 이나 TLS을 사용
+- 이 커넥션은 클라이언트가 민감한 정보를 서버와 안전하게 주고받도록 해줌
+
+### 16. TCP란 무엇인가?
+
+- 인터넷 상에서 데이터를 메시지 형태로 보내기 위해 IP와 함께 사용하는 프로토콜(Transmission Control Protocol)
+- TCP (전송 제어 프로토콜)은 두 개의 호스트를 연결하고 데이터 스트림을 교환하게 해주는 중요한 네트워크 프로토콜
+- TCP의 역할은 에러가 없이 패킷이 신뢰할 수 있게 전달 되었는지 보증해 주는 것
+- TCP는 동시제어가 가능 -> 이는 초기 요청이 작게 시작해도 컴퓨터들과 서버들의 대역폭의 깊이가 증가해도 네트워크가 지원할 수 있다는 것을 뜻함
+  - 패킷 : 인터넷 내에서 데이터를 보내기 위한 경로배정(라우팅)을 효율적으로 하기 위해서 데이터를 여러 개의 조각들로 나누어 전송을 하는데 이때, 이 조각을 패킷
+
+### 17. TCP와 UDP의 차이점은?
+
+- UDP(User Datagram Protocol) : 데이터를 데이터그램(독립적인 관계를 지니는 패킷) 단위로 처리하는 프로토콜
+
+<img src="https://images.velog.io/images/daon9apples/post/f4f756e7-c6f5-41bd-8467-e381517be404/image.png" width="600">
+
+### 18. 브라우저에서 주소창에 url 입력시 어떤일이 일어나는가?
+
+- 브라우저 주소창에 maps.google.com을 입력한다.
+- 브라우저가 maps.google.com의 IP 주소를 찾기 위해 캐시에서 DNS 기록을 확인한다.
+- 만약 요청한 URL(maps.google.com)이 캐시에 없다면, ISP의 DNS 서버가 DNS 쿼리로 maps.google.com을 호스팅하는 서버의 IP 주소를 - 찾는다.
+- 브라우저가 해당 서버와 TCP 연결을 시작한다.
+- 브라우저가 웹서버에 HTTP 요청을 보낸다.
+- 서버가 요청을 처리하고 응답을 보낸다.
+- 서버가 HTTP 응답을 보낸다.
+- 브라우저가 HTML 컨텐츠를 보여준다.
+
+### 19. JavaScript Event Loop
+
+<img src="https://github.com/YooJinRa/til/blob/main/Javascript/ExecutionContextMySelf.jpeg" width="800">
+
+### 20. RESTFul API란?
+
+- RESTful은 REST의 설계 규칙을 잘 지켜서 설계된 API를 RESTful한 API
+  - REST API : REST의 특징을 기반으로 서비스 API를 구현한 것
+  - 각 요청이 어떤 동작이나 정보를 위한 것인지를 그 요청의 모습 자체로 추론이 가능한 것
+  - URI는 정보의 자원을 표현 / 자원에 대한 행위는 HTTP Method(GET, POST, PUT, PATCH, DELETE)로 표현 / 행위(Method)는 URI에 포함하지 않음
