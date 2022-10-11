@@ -382,7 +382,7 @@
   - state, LifeCycle Api 사용 가능
   - 임의의 메서드 정의 가능
 - 함수형
-  - state, LifeCycle Api 사용 가능(16.8 이후 제공되는 hook으로 해결가능)
+  - state, LifeCycle Api 사용 불가(16.8 이후 제공되는 hook으로 해결가능)
   - 선언하기 클래스형 보다 편리
   - 메모리 자원을 클래스형보다 덜 사용
   - 빌드한 결과물의 크기가 클래스형보다 작음
