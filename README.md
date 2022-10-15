@@ -49,6 +49,7 @@
   - 📌 [useMemo](https://github.com/YooJinRa/til/tree/main/ReactJS/useMemo.md)
   - 📌 [useRef](https://github.com/YooJinRa/til/tree/main/ReactJS/useRef.md)
 - 📌 [Typescript](https://github.com/YooJinRa/til/tree/main/Typescript)
+  - 📌 [Generic](https://github.com/YooJinRa/til/tree/main/Typescript/Generic.md)
   - 📌 [Type vs Interface](https://github.com/YooJinRa/til/tree/main/Typescript/Type_Interface.md)
 - 📌 [Web Performace Optimization](https://github.com/YooJinRa/til/tree/main/WebPerformanceOptimization)
 
