@@ -11,6 +11,7 @@
 ### INDEX
 
 - 📌 [Algorithm](https://github.com/YooJinRa/til/tree/main/Algorithm)
+  - 📌 [Dynamic Programming](https://github.com/YooJinRa/til/tree/main/Algorithm/DynamicProgramming.md)
 - 📌 [Clean Code](https://github.com/YooJinRa/til/tree/main/CleanCode)
 - 📌 [Cloud](https://github.com/YooJinRa/til/tree/main/Cloud)
   - 📌 [AWS-S3](https://github.com/YooJinRa/til/tree/main/Cloud/AWS-S3.md)
@@ -52,14 +53,6 @@
   - 📌 [Generic](https://github.com/YooJinRa/til/tree/main/Typescript/Generic.md)
   - 📌 [Type vs Interface](https://github.com/YooJinRa/til/tree/main/Typescript/Type_Interface.md)
 - 📌 [Web Performace Optimization](https://github.com/YooJinRa/til/tree/main/WebPerformanceOptimization)
-
----
-
-### 회고
-
-- 📌 [2022.07](https://github.com/YooJinRa/til/blob/main/Retrospect/202207.md)
-- 📌 [2022.08](https://github.com/YooJinRa/til/blob/main/Retrospect/202208.md)
-- 📌 [2022.09](https://github.com/YooJinRa/til/blob/main/Retrospect/202209.md)
 
 ---
 
