@@ -13,7 +13,7 @@
     - Hoisting : 함수 선언과 클래스 선언의 중요한 차이점은 함수의 경우 정의하기 하기 전에 호출할 수 있지만, 클래스는 반드시 정의한 뒤에 사용할 수 있다는 점
   - Class 표현식 : Class 표현식은 이름을 가질 수도 있고, 갖지 않을 수도 있음 -> 이름을 가진 class 표현식의 이름은 클래스 body의 local scope에 한해 유효
 
-## 방법
+## 키워드
 
 - Class body : 중괄호 {} 로 묶여 있는 안쪽 부분으로 메서드나 constructor와 같은 class 멤버를 정의할 곳
 - Strick mode : 클래스의 본문(body)은 strict mode에서 실행
