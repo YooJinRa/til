@@ -35,6 +35,7 @@
   - 📌 [Bracket 괄호 사용 정리](https://github.com/YooJinRa/til/blob/main/Javascript/Bracket.md)
   - 📌 [Class](https://github.com/YooJinRa/til/blob/main/Javascript/Class.md)
   - 📌 [Data Type 데이터 타입](https://github.com/YooJinRa/til/blob/main/Javascript/DataType.md)
+  - 📌 [Destructuring Assignment 구조분해할당](https://github.com/YooJinRa/til/blob/main/Javascript/DestructuringAssignment.md)
   - 📌 [ES](https://github.com/YooJinRa/til/tree/main/Javascript/ES.md)
   - 📌 [Promise](https://github.com/YooJinRa/til/tree/main/Javascript/Promise.md)
   - 📌 [ShallowCopy*DeepCopy 얕은복사*깊은복사](https://github.com/YooJinRa/til/blob/main/Javascript/ShallowCopy_DeepCopy.md)
